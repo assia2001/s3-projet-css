@@ -1,0 +1,68 @@
+.entete{
+	
+	border-style:solid;
+	border-color:white;
+    width:160px;
+    height:40px;
+	margin:100px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	
+}
+@keyframes titre{
+	0% {
+		
+		background-color:green;
+		left:0px;
+		to:0px;
+	}
+	25% {
+		
+		background-color:green;
+		left:200px;
+		top:0px;
+	}
+	
+	50%{
+		background-color:green;
+		left:400px;
+		top:0px;
+		
+	}
+	
+}
+div{
+	width:800px;
+	height:100px;
+	position:relative;
+	animation-name:titre;
+	animation-duration:4s;
+	animation-delay:2s;
+	animation-iteration-count:3;
+}
+
+
+
+
+.cellule{
+	
+	border-style:solid;
+	border-color:white;
+    width:160px;
+    height:30px;
+	margin:100px;
+	text-align:center;
+}
+tr{
+	border-color:white;
+	height:30px;
+}
+table{
+	margin-top:100px;
+	margin-left:200px;
+	border:solid 2px;
+	
+	border-color:white;
+
+}

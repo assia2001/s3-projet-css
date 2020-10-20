@@ -1,0 +1,15 @@
+input[name="message"]{
+	
+	width:300px;
+	height:600px;
+	color:black;
+	border-color:green;
+	
+	
+}
+form{
+	border-radius:30px;
+	border-color:green;
+	border-width:5px;
+	
+}
